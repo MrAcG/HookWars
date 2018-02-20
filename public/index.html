@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | another one</title>
+    <title>Unity WebGL Player | Hook Wars</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
@@ -12,14 +12,30 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/HookWars.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
+  <body background="HOOKWARS.jpg">
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">another one</div>
+        <div class="title">Hook Wars</div>
       </div>
     </div>
+    <section>
+    <div class="description">
+        <h3 class="box-title">Description</h2>
+        <b>Hook Wars is a survival game where you hook the zombie to kill them and score points.</b>
+    </div>   
+    <section id="wdg_game_controls" class="wdg_game_controls clearfix" data-props="{}">
+    <h3 class="box-title">Game controls</h3>
+    <div class="controls-container outline-text ui-tooltip-wrapper right">
+    	<div class="tab-stuff tab-content-controls">
+    <ul class="game-controls clear">
+        <li><img src="//static.miniclipcdn.com/images/icons/game-controls/icon_c_mousemove.png" alt="move mouse"> Aim</li><li><img src="//static.miniclipcdn.com/images/icons/game-controls/icon_c_mouseleft.png" alt="left mouse button"> Shoot Hook</li><li><img src="//static.miniclipcdn.com/images/icons/game-controls/icon_c_arrows.png" alt="arrows"> Use WASD to move</li>    </ul>
+</div>
+        </div>
+        
+    </div>
+    </section>
   </body>
 </html>
