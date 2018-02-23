@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "another one",
+"dataUrl": "hookfinal.data.unityweb",
+"asmCodeUrl": "hookfinal.asm.code.unityweb",
+"asmMemoryUrl": "hookfinal.asm.memory.unityweb",
+"asmFrameworkUrl": "hookfinal.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
